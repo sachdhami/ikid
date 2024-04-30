@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AF9BC1A2BE08FB900156B57 /* PunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9BC192BE08FB800156B57 /* PunViewController.swift */; };
+		5AF9BC1C2BE0909A00156B57 /* DadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9BC1B2BE0909A00156B57 /* DadViewController.swift */; };
+		5AF9BC1E2BE0996400156B57 /* KnockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9BC1D2BE0996400156B57 /* KnockViewController.swift */; };
 		5AFD91052BE079AA00C1D8FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFD91042BE079AA00C1D8FC /* AppDelegate.swift */; };
 		5AFD91072BE079AA00C1D8FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFD91062BE079AA00C1D8FC /* SceneDelegate.swift */; };
 		5AFD91092BE079AA00C1D8FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFD91082BE079AA00C1D8FC /* ViewController.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5AF9BC192BE08FB800156B57 /* PunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunViewController.swift; sourceTree = "<group>"; };
+		5AF9BC1B2BE0909A00156B57 /* DadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadViewController.swift; sourceTree = "<group>"; };
+		5AF9BC1D2BE0996400156B57 /* KnockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnockViewController.swift; sourceTree = "<group>"; };
 		5AFD91012BE079AA00C1D8FC /* ikid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ikid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AFD91042BE079AA00C1D8FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AFD91062BE079AA00C1D8FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +108,9 @@
 				5AFD91042BE079AA00C1D8FC /* AppDelegate.swift */,
 				5AFD91062BE079AA00C1D8FC /* SceneDelegate.swift */,
 				5AFD91082BE079AA00C1D8FC /* ViewController.swift */,
+				5AF9BC192BE08FB800156B57 /* PunViewController.swift */,
+				5AF9BC1B2BE0909A00156B57 /* DadViewController.swift */,
+				5AF9BC1D2BE0996400156B57 /* KnockViewController.swift */,
 				5AFD910A2BE079AA00C1D8FC /* Main.storyboard */,
 				5AFD910D2BE079AD00C1D8FC /* Assets.xcassets */,
 				5AFD910F2BE079AD00C1D8FC /* LaunchScreen.storyboard */,
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF9BC1A2BE08FB900156B57 /* PunViewController.swift in Sources */,
+				5AF9BC1E2BE0996400156B57 /* KnockViewController.swift in Sources */,
 				5AFD91092BE079AA00C1D8FC /* ViewController.swift in Sources */,
 				5AFD91052BE079AA00C1D8FC /* AppDelegate.swift in Sources */,
 				5AFD91072BE079AA00C1D8FC /* SceneDelegate.swift in Sources */,
+				5AF9BC1C2BE0909A00156B57 /* DadViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

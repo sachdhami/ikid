@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DadViewController.swift
 //  ikid
 //
 //  Created by Sachin Dhami on 4/29/24.
@@ -7,16 +7,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    
+class DadViewController: UIViewController {
+
     @IBOutlet weak var nextButton: UIButton!
     @IBOutlet weak var jokeLabel: UILabel!
-    let joke = "What do mermaids wash their fins with?"
-    let answer = "Tide"
+    let joke = "Why are bicycles always exhausted?"
+    let answer = "Cause they're two tired!"
     var nextButtonPressed = true
     var isText = true
-
-
 
     
     override func viewDidLoad() {
@@ -39,16 +37,14 @@ class ViewController: UIViewController {
     
     
 
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
